@@ -45,7 +45,6 @@ execute ur program
 # contents
 
 01. hello
-
 	- lena.jpg example
 	- params
 	- IMWRITE_JPEG_QUALITY
@@ -56,7 +55,6 @@ execute ur program
 
 
 02. basic_data_types
-
 	- Point class
 	- Size class
 	- Rect class
