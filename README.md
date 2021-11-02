@@ -47,30 +47,19 @@ execute ur program
 - 01.hello
 
 	- lena.jpg example
-
 	- params
-
 	- IMWRITE_JPEG_QUALITY
-
 	- IMREAD_GRAYSCALE
-
 	- namedWindow
-
 	- destoryWindow
-
 	- waitkey
 
 
 - 02.basic_data_types
 
 	- Point class
-
 	- Size class
-
 	- Rect class
-
 	- Rotated class
-
 	- Range class
-
 	- String class
