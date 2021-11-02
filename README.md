@@ -44,33 +44,33 @@ execute ur program
 
 # contents
 
-01. hello
+- 01.hello
 
-- lena.jpg example
+	- lena.jpg example
 
-- params
+	- params
 
-- IMWRITE_JPEG_QUALITY
+	- IMWRITE_JPEG_QUALITY
 
-- IMREAD_GRAYSCALE
+	- IMREAD_GRAYSCALE
 
-- namedWindow
+	- namedWindow
 
-- destoryWindow
+	- destoryWindow
 
-- waitkey
+	- waitkey
 
 
-02. basic_data_types
+- 02.basic_data_types
 
-- Point class
+	- Point class
 
-- Size class
+	- Size class
 
-- Rect class
+	- Rect class
 
-- Rotated class
+	- Rotated class
 
-- Range class
+	- Range class
 
-- String class
+	- String class
