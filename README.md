@@ -44,7 +44,7 @@ execute ur program
 
 # contents
 
-- 01.hello
+01. hello
 
 	- lena.jpg example
 	- params
@@ -55,7 +55,7 @@ execute ur program
 	- waitkey
 
 
-- 02.basic_data_types
+02. basic_data_types
 
 	- Point class
 	- Size class
