@@ -54,6 +54,7 @@ execute ur program
 	- waitkey
 
 
+
 02. basic_data_types
 	- Point class
 	- Size class
