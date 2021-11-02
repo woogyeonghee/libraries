@@ -52,10 +52,8 @@ execute ur program
 	- namedWindow
 	- destoryWindow
 	- waitkey
-
-
-
-
+<br/>
+<br/>
 02. basic_data_types
 	- Point class
 	- Size class
