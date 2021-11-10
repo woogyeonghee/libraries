@@ -87,19 +87,19 @@ make
 
 # keyword_class
 
-## Point_ 02
+## Point_ 
  
-## Size_ 02
+## Size_ 
 
-## Rect_ 02
+## Rect_ 
 
-## RotatedRect 02
+## RotatedRect 
 
-## Range 02
+## Range 
 
-## String 02
+## String 
 
-## Mat 02
+## Mat 
 
 - Mat 02
 
@@ -143,23 +143,17 @@ make
 
 - pop_back 02
 
-## vec 02
+## vec 
 
-## scalar 02
+## scalar 
 
-- sum 03
-
-- mean 03
-
--
-
-## InputArray 02
+## InputArray 
 
 - getMat 02
 
-## OutputArray 02
+## OutputArray 
 
-## VideoCapture 03
+## VideoCapture 
 
 - VideoCapture 03
 
@@ -173,7 +167,7 @@ make
 
 - get 03
 
-## VideoWriter 03
+## VideoWriter 
 
 - VideoWriter 03
 
@@ -185,7 +179,7 @@ make
 
 - release 03
 
-## FileStorage 03
+## FileStorage 
 
 - open 03
 
@@ -193,8 +187,97 @@ make
 
 - release 03
 
+## CascadeClassifier
 
-# keyword-function 03
+- load 12
+
+- empty 12
+
+- detectMultiScale 12
+
+## HOGDescriptor 
+
+- getDefaultPeopleDetector 12
+
+- setSVMDetector 12
+
+- detectMultiScale 12
+
+- HOGGDescriptor 14
+
+- compute 14
+
+## QRCodeDetector
+
+- detect 12
+
+- decode 12
+
+- detectAndDecode 12
+
+## ORB
+
+- create 13
+
+## Feature2D
+
+- detect 13
+
+- compute 13
+
+- detectAndCompute 13
+
+## BFMatcher 
+
+- create 13
+
+## FlannBasedMatcher 
+
+- create 13
+
+## DescriptorMatcher 
+
+- match 13
+
+## Stitcher 
+
+- create 13
+
+## StatModel 
+
+- train 14
+
+- predict 14
+
+## KNerest 
+
+- create 14
+
+- setDefault 14
+
+- setIsClassifier 14
+
+- findeNearest 14
+
+## SVM
+
+- create 14
+
+- setType 14
+
+- setKernel 14
+
+- trianAuto 14
+
+# Net
+
+- empty 15
+
+- setInput 15
+
+- forward 15
+
+# keyword-function 
 
 - line 03
 
@@ -228,6 +311,10 @@ make
 
 - getTickFrequency 03
 
+- sum 03
+
+- mean 03
+
 - minMacLoc 03
 
 - normalize 03
@@ -260,10 +347,109 @@ make
 
 - filter2D 06
 
--
+- blur 06
 
+- GaussianBlur 07
 
+- GaussianKernel 07
 
+- randn 07
+
+- bilateralFilter 07
+
+- medianBlur 07
+
+- getAffineTransform 07
+
+- WarpAffine 07
+
+- transform 07
+
+- resize 07
+
+- getRotationMatrix2D 07
+
+- rotate 07
+
+- flip 07
+
+- getPerspectiveTransform 07
+
+- WarpPerspective 07
+
+- Sobel 08
+
+- Scharr 08
+
+- magnitude 08
+
+- phase 08
+
+- Canny 08
+
+- HoughLines 08
+
+- HoughLinesP 08
+
+- HoughCircles 08
+
+- cvtColor 09
+
+- split 09
+
+- merge 09
+
+- inrange 09
+
+- calcBackProject 09
+
+- threshold 10
+
+- adaptiveThreshold 10
+
+- getStructuringElement 10
+
+- erode 10
+
+- dilate 10
+
+- morphologyEx 10
+
+- connectedComponents 11
+
+- connectedComponentsWithStats 11
+
+- findContours 11
+
+- drawContours 11
+
+- boudingRect 11
+
+- minAreaRect 11
+
+- minEnclosingCircle 11
+
+- arcLength 11
+
+- contourArea 11
+
+- approxPolyDP 11
+
+- matchTemplate 12
+
+- cornerHarris 13
+
+- Fast 13
+
+- drawKeypoint 13
+
+- drawMatches 13
+
+- findHomography 13
+
+- readNet 15
+
+- bolbFromImage 15
 
 	
 	
