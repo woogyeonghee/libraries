@@ -56,69 +56,36 @@ make
 # contents
 
 01. hello
-	- lena.jpg example
-	- params
-	- IMWRITE_JPEG_QUALITY
-	- IMREAD_GRAYSCALE
-	- namedWindow
-	- destoryWindow
-	- waitkey
-<br/>
 
-02.1. basic_data_types
-	- Point class
-	- Size class
-	- Rect class
-	- Rotated class
-	- Range class
-	- String class
-<br/>
+02. 기본자료형
 
-02.2. Mat
-	- matrix in memory
-	- depth
-	- Mat::zeros; ones; eye
-	- setTo
-	- clone; copyTo
-	- img(Rect())
-	- ~img
-	- mat::at
-	- mat::ptr
-	- img.type
-	- mat.inv
-	- convertTo
-	- reshape
-	- push_back
-<br/>
+03. 비디오, 그리기, 끝내기, 저장하기, 트랙바, 마스크, 유틸리티
 
-02.3. scalar
-	- scalar
-<br/>
+04. 밝기, 명암, 히스토그램
 
-02.4. inputArray
-	- inputArray
-	- outputArray
-<br/>
+05. 영상의 비교 및 합성
 
-03.1. video
-	- VideoCapture
+06. 영상 필터링 
 
-03.2. drawing
-	- drawing
+07. 영상 기하학적 변환
 
-03.3. keyboard
-	- use key break
+08. 에지 검출, 직선 검출, 원 검출
 
-03.4. mouse
-	- use mouse break
+09. 특정 색 검출 이진화로
 
-03.5. trackbar
-	- make gui trackbar
+10. 이진화 영상 처리
+
+11. 외곽선 검출
+
+12. 템플릿, 얼굴, 보행자, QR 검출
+
+13. 코너, 특징점 매칭
+
+14. 머신러닝
+
+15. 딥러닝
+
 	
-03.6. storage
-	- storage like a capcule
 	
-03.7. utils
-	- mask
-	- time
+	
 
