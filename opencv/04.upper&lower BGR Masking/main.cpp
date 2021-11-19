@@ -47,22 +47,6 @@ void on_hue_changed(int, void*)
 	Scalar upperb(upper_hue_B, upper_hue_G, upper_hue_R);
 	inRange(src_hsv, lowerb, upperb, mask);
 
-	int morph_size = 2;
-	Mat element = getStructuringElement(MORPH_RECT, Size(2 * morph_size + 1, 2 * morph_size + 1),
-		Point(morph_size, morph_size));
-	morphologyEx(mask, mask, MORPH_OPEN, element);
-	morphologyEx(mask, mask, MORPH_CLOSE, element);
-	Mat blue_image;
-
-	//bitwise_not(mask, mask);
-
-
-	Mat img_labels, stats, centroids;
-	numOfLabels = connectedComponentsWithStats(mask, img_labels, stats, centroids, 8, CV_32S);
-
-
-
-
 	imshow("mask", mask);
 }
 
